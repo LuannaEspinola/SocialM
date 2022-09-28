@@ -1,0 +1,39 @@
+<!--Pagina para Login-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo temporário</title> <!--Titulo temporario até ter o nome da rede social-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  
+    <div id="login-container">
+        <h1>Login</h1>
+        <form action="login.php" method="post">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="name" placeholder="Your email here" autocomplete="off">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Your password here">
+            <a href="#" id="forgot-pass">Forgot your password?</a>
+            <input type="submit" value="Login">
+        </form>
+        <div id="social-container">
+
+            <p>Or sign up with your social media</p>
+            <i class="fa fa-facebook-f"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <div id="register-container">
+            <p>Don't have an account?</p>
+            <a href="cadastro.html">Create an account</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
